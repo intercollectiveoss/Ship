@@ -1,0 +1,27 @@
+ship
+
+disclaimer
+
+version 1.0, august 2026
+
+ship is early software. it may be incomplete, change without notice, fail to deploy, restart a process, expose a port, lose a log, or do something else that software occasionally does when it is still finding its feet.
+
+what ship does not promise
+
+ship does not promise that a deployment will succeed, a process will stay healthy, a Preview URL will remain available, a certificate will be issued, a service will reconnect, or a log will contain every event. health checks, throttling, supervisors, process trees, and integrity manifests can help you operate a system; they cannot make the system infallible.
+
+ship does not promise compatibility with every operating system, runtime, framework, network, domain, certificate authority, registry, or application dependency. behavior can also depend on permissions, firewall rules, DNS, port forwarding, filesystem state, and the machine running the daemon.
+
+production and important workloads
+
+ship is provided for evaluation and development use unless a separate written agreement says otherwise. do not rely on it for emergency services, safety-critical systems, regulated workloads, or anything where an outage, disclosure, corruption, or incorrect response could cause serious harm without first doing your own review and testing.
+
+before trusting ship with important workloads, review the source and configuration, protect credentials and private keys, restrict network access, configure backups, test restores, monitor the host, and practice stopping and recovering a deployment.
+
+security is shared
+
+ship can expose local processes through Preview or production routing. an incorrect port, hostname, certificate, token, firewall rule, or application setting can make a service reachable by people you did not intend to reach it. the operator is responsible for checking the effective exposure and for responding when it changes.
+
+no tool can determine whether an application, its data, its traffic, or its users are lawful. One governs the practical responsibilities of operating ship, and Zero governs the licensed software. neither document replaces a security review or a legal agreement tailored to your deployment.
+
+this is project documentation, not legal, security, privacy, tax, compliance, or operational advice. get advice for your own situation.

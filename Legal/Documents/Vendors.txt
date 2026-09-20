@@ -1,0 +1,27 @@
+ship
+
+vendors
+
+version 1.0, august 2026
+
+ship includes or can connect to other people's software and services. those relationships have their own licenses, terms, availability, and privacy practices. this file is a map, not a replacement for their notices.
+
+software included in the repository
+
+the repository includes a vendored copy of `ws`, a Node.js WebSocket client and server, under `Platform/Works/Interworks/Subworks/Vendors/Ws/`. its package metadata identifies version 8.21.3 and an MIT license. the applicable notice and permission text are kept beside the code at `Platform/Works/Interworks/Subworks/Vendors/Ws/LICENSE`.
+
+the `ws` code is used by ship's Preview tunnel. ship's own code around that dependency is not silently converted into the `ws` license, and the `ws` license does not change the ship Zero license. keep both notices when redistributing the relevant code.
+
+ship also uses Node.js built-in modules for files, processes, networking, cryptography, TLS, workers, and operating-system integration. Node.js and the operating system remain subject to their own terms and notices; a built-in module is not a new ship-owned dependency.
+
+services ship may contact
+
+ship's production certificate flow can contact a certificate authority's ACME directory. certificate issuance is controlled by the certificate authority and its requirements, not by ship. domains, DNS providers, hosting providers, registries, and network operators are outside ship's control.
+
+Preview can use the configured ship services endpoint, which defaults in the code to `preview.onyxpowered.com`. the availability, operation, terms, and data handling of that endpoint are separate from the local ship daemon.
+
+your application can also bring its own runtimes, packages, frameworks, APIs, fonts, images, and other dependencies. you are responsible for identifying those materials and complying with their licenses and terms.
+
+redistribution and review
+
+before redistribution or commercial use, review every vendor notice, preserve required attribution, and confirm that your deployment complies with provider terms. vendoring code does not make its upstream license disappear, and naming a service here does not mean that service endorses ship.

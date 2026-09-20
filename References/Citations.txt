@@ -1,0 +1,38 @@
+ship
+
+Citations
+
+websockets/ws
+
+ship vendors `ws` version 8.21.3 under `Platform/Works/Interworks/Subworks/Vendors/Ws/`.
+
+upstream: https://github.com/websockets/ws
+license: MIT
+local notice: `Platform/Works/Interworks/Subworks/Vendors/Ws/LICENSE`
+
+ship uses this code for the Preview tunnel. the tunnel client sends a hello message, answers protocol pings, forwards requests to a local block, and reconnects when the socket closes.
+
+WebSocket protocol
+
+the tunnel is built on the WebSocket protocol, standardized in RFC 6455:
+
+https://www.rfc-editor.org/rfc/rfc6455
+
+ACME and certificates
+
+production certificate issuance follows the ACME model described by RFC 8555:
+
+https://www.rfc-editor.org/rfc/rfc8555
+
+ship's default production directory is Let's Encrypt's public ACME endpoint:
+
+https://acme-v02.api.letsencrypt.org/directory
+
+HTTP and TLS
+
+ship uses ordinary HTTP and HTTPS servers from Node.js and creates local certificate material for development and routing. the relevant protocol references are:
+
+https://www.rfc-editor.org/rfc/rfc9110
+https://www.rfc-editor.org/rfc/rfc8446
+
+these links explain the protocols; they do not grant ship permission to use someone else's trademarks, infrastructure, or content.

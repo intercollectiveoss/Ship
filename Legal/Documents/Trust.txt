@@ -1,0 +1,31 @@
+ship
+
+trust
+
+version 1.0, august 2026
+
+ship is designed around self-hosting. the daemon, app processes, logs, vault, local configuration, deployment artifacts, and integrity manifests live on the machine where you run ship, subject to the operating system, filesystem permissions, and services you choose to connect.
+
+local operation
+
+when ship is used locally, the operating system and host operator control the machine, its disks, its process table, its network, and its backups. ship does not make a local machine private from other users or administrators of that machine.
+
+the ship vault can hold local account and deployment information. protect the ship home directory and the account that runs the daemon. do not put tokens, passphrases, private keys, or certificate material in source control or unprotected logs.
+
+Preview data path
+
+Preview uses a services endpoint and a WebSocket tunnel so a temporary public URL can reach the selected local block. the tunnel carries requests and responses. authentication tokens, the app slug, the selected mode, request metadata, and connection events may be used to establish and maintain that route.
+
+preview URLs are intended to expire after a day, as described in the README. while active, a preview is a public address. expiration is not a promise that an upstream cache, browser, proxy, log, screenshot, or recipient has forgotten what it received.
+
+production and certificates
+
+production routing can serve traffic from your machine and forward it to a local block. it may contact a certificate authority to request certificates. that interaction can include the domain names, challenge responses, contact details, and account information required by the ACME protocol.
+
+ship does not make a certificate authority, a domain provider, a network provider, or any other certificate or infrastructure provider your private operator. read their terms and privacy documentation, and decide whether their data handling is suitable for your deployment.
+
+your choices
+
+you choose what to deploy, what to expose, which domains to use, which services to connect, how long to retain logs, and when to delete local state. you are responsible for notices, consent, access requests, retention, deletion, backups, and incident response that apply to your users or data.
+
+keep tokens and private keys out of source control, limit access to the ship home directory, inspect network listeners and firewall rules, and remove deployments and credentials when they are no longer needed. this document describes the intended trust boundaries; it is not a privacy policy or a security certification.

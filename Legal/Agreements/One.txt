@@ -1,0 +1,63 @@
+ship
+
+ship Terms
+
+version 1.0, august 2026
+
+these terms describe the practical agreement for using ship, including any Preview or other services made available by onyxpowered. the ship source code itself is licensed under ship Zero. Zero gives you software rights; One explains how you are expected to operate the software and services.
+
+1. using ship
+
+you may use ship on machines you own or control, or on machines where you have permission to run software, store data, and accept network traffic. you are responsible for installing it, configuring it, keeping it updated, and deciding who can access it.
+
+you must not use ship to break the law, violate another person's rights, interfere with another person's systems, evade access controls, distribute malware, or expose a service you are not authorized to expose. you must also follow the terms that apply to your operating system, cloud provider, domain registrar, certificate authority, and app dependencies.
+
+2. your apps and material
+
+you keep all rights to the apps, code, content, data, secrets, configurations, domains, and other material that you import, host, deploy, generate, or create with ship. using ship does not give onyxpowered ownership of any of it.
+
+you give onyxpowered no general license to your material. you are responsible for having the permissions needed to run it through ship, for your users' activity, and for notices, consent, retention, backup, and deletion obligations that apply to your deployment.
+
+3. Preview
+
+Preview is a temporary routing service. ship can connect a local block to the configured services endpoint and make that block reachable through a preview URL. requests, responses, connection metadata, and authentication information may pass through the systems needed to provide that route.
+
+preview URLs are intended to expire after a day. they are still public addresses while active, and expiration is not a promise that every copy, cache, log, or screenshot has disappeared. do not use Preview for secrets, sensitive personal information, or regulated data unless you have assessed the risks and made the necessary arrangements.
+
+onyxpowered may limit, suspend, or remove a Preview route when it is unsafe, unlawful, abusive, technically necessary, or no longer supported. this does not give onyxpowered ownership of your app or material.
+
+4. production routing
+
+production routing can listen on your machine, forward traffic to a local block, and request certificates through the ACME protocol. you are responsible for the domain, DNS, port forwarding, certificate requirements, private keys, notices, and permissions that make the deployment lawful and secure.
+
+you are also responsible for operating the server, responding to incidents, making backups, and removing access when it is no longer needed. ship's logs, health checks, throttling, and integrity checks are aids, not a substitute for your own controls.
+
+5. accounts and credentials
+
+if a ship service asks you to create an account, provide information that is accurate enough to manage that account and protect the credentials issued to you. do not share tokens or private keys casually, commit them to source control, or use another person's account without permission.
+
+you are responsible for activity performed through your account or credentials until you secure them and notify the relevant operator. onyxpowered will not ask for private keys or passphrases through an unsolicited message.
+
+6. third parties
+
+ship may connect to services such as a certificate authority, a domain provider, a registry, or a configured services endpoint. those providers have their own terms, availability, privacy practices, and limits. you choose whether to use them, and you are responsible for complying with their requirements.
+
+third-party software included with ship remains under its own license. the licenses and notices in the repository control those components.
+
+7. changes and ending use
+
+ship is early software. onyxpowered may change, pause, or discontinue a ship service, and may update these terms for future use. a change does not rewrite the license that applied to a copy of ship you already received.
+
+you can end your use at any time by stopping the daemon, removing your deployments, deleting your account and local data where applicable, and closing any connected third-party services. onyxpowered may suspend access when these terms are materially violated or when continued access creates a legal, security, or operational risk.
+
+8. warranty and liability
+
+ship and associated services are provided "as is" and "as available" to the fullest extent permitted by law. onyxpowered does not promise uninterrupted service, perfect security, successful deployment, permanent Preview URLs, certificate issuance, or fitness for a particular purpose.
+
+to the fullest extent permitted by law, onyxpowered and the contributors are not liable for indirect, incidental, special, consequential, exemplary, or punitive damages, or for loss of data, revenue, access, goodwill, or anticipated savings arising from ship or these terms.
+
+9. plain-language ending
+
+ship is a tool you operate. you decide what runs, where it runs, who can reach it, and what obligations come with it. One tells us how to share that responsibility; Zero tells us how to share the code.
+
+this document is a project agreement written in plain language. it is not legal, security, privacy, tax, or compliance advice.

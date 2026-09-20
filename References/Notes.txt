@@ -1,0 +1,13 @@
+ship
+
+Notes
+
+this folder keeps the notes behind ship's choices. the notes are intentionally short: a citation tells you where to look, while the source tells you how ship uses it.
+
+the project uses Node.js built-in modules for files, processes, networking, cryptography, TLS, workers, and operating-system integration. the root package manifest declares no npm dependencies.
+
+one substantial vendored dependency is `ws`, used by the Preview tunnel. see `References/Citations.txt` for its upstream details and `Legal/Documents/Vendors.txt` for the licensing boundary.
+
+one real npm dependency exists, scoped to where it's used rather than declared at the root: `sharp`, installed under `Platform/Works/Systemworks/Subworks/` (its own `package.json` and `node_modules`), used by the CLI's image-to-ASCII rendering.
+
+references are included for attribution and engineering context. they are not endorsements, warranties, or promises that an upstream project supports ship.

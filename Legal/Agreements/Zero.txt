@@ -1,0 +1,56 @@
+ship
+
+Zero License
+
+version 1.0, august 2026
+
+ship is open source under this custom license. Zero is not an approved open-source license. it lets you use ship, study it, change it, and share it. it also lets you use it commercially. please keep the license and copyright notices with the parts of ship you distribute.
+
+1. definitions
+
+"licensed work" means the ship source code and documentation that onyxpowered makes available under this license.
+
+"you" means any person or organization exercising the permissions in this license.
+
+"ship marks" means the names "ship" and "onyxpowered", their logos, icons, product marks, and confusingly similar names or designs.
+
+"your material" means software, applications, content, data, secrets, configurations, and other material that you host, deploy, import, generate, or create using ship.
+
+2. copyright permission
+
+subject to this license, onyxpowered grants you a perpetual, worldwide, non-exclusive, royalty-free, copyright license to:
+
+- use the licensed work for any purpose;
+- make and run copies of the licensed work;
+- study, modify, and create derivative works from the licensed work;
+- distribute the licensed work and derivative works in source or compiled form;
+- sublicense and sell copies of the licensed work or derivative works; and
+- combine the licensed work with other software.
+
+you may charge for a product or service that includes ship. you may keep your own changes under different terms, but you must preserve this license and the applicable notices for the licensed work itself.
+
+3. notices
+
+when you distribute the licensed work or a substantial part of it, include a copy of this license and retain existing copyright, attribution, and disclaimer notices. you may add your own copyright notice for your changes, provided it does not suggest that onyxpowered wrote or endorses those changes.
+
+4. ship marks are not licensed
+
+this license does not grant permission to use ship marks. you may truthfully say that your software is based on, compatible with, or uses ship, so long as you do not imply sponsorship, endorsement, or official status. do not use ship marks as the name, logo, or primary branding of a modified or redistributed product without written permission.
+
+5. your material stays yours
+
+this license does not claim, transfer, or license your material. onyxpowered receives no ownership of anything you host, deploy, import, generate, or create using ship. you are responsible for your material, your users, your infrastructure, and your compliance with applicable law and third-party terms.
+
+6. other rights
+
+this license does not grant patent rights, trademark rights, privacy rights, or any other rights beyond the copyright permissions expressly stated here. third-party components remain subject to their own licenses, which control if they conflict with this license.
+
+7. warranty and liability
+
+the licensed work is provided "as is", without warranty of any kind, express or implied, including warranties of merchantability, fitness for a particular purpose, and non-infringement. to the fullest extent permitted by law, onyxpowered and the contributors are not liable for any claim, damages, or other liability arising from the licensed work or its use.
+
+8. termination
+
+your permissions end automatically if you materially violate this license. they will return if you stop the violation and the violation is cured within thirty days after you receive notice, unless onyxpowered has permanently terminated your permissions for that violation. rights granted to recipients of an unmodified copy, or to recipients who received your compliant distribution, are not revoked merely because your permissions ended.
+
+this is the license text. the lowercase style is intentional; the legal effect is intended to be the same as if it had been written in a more ceremonious font.

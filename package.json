@@ -1,0 +1,17 @@
+{
+  "name": "ship",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "ship -- self-hosted developer platform. designed and built by onyxpowered.",
+  "author": "onyxpowered",
+  "contributors": [
+    "onyxpowered"
+  ],
+  "bin": {
+    "ship": "./Platform/Works/Systemworks/Subworks/CLI.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
